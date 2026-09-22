@@ -1,5 +1,6 @@
 # ✏️Úvod
 
+
 Na tomto webu najdete především technické nástroje pro podporu tvorby textů ve formě tzv. snadno čitelném textu (anglicky ETR).
 
 Tvorba textů v tomto tvaru je částečně povinnost, ale především je to naprosto zásadní pro určité osoby, ale samotné psaní v ETR, respektive přepis normálního textu do formy ETR, je věc složitá a vyžaduje dost velké znalosti a striktní dodržování určených pravidel a mnoho praxe.
@@ -11,6 +12,7 @@ Tvorba textů v tomto tvaru je částečně povinnost, ale především je to na
 - [Hledáte-li jen metodiky a doporučení pro ETR, podívejte se do sekce s metodikami](#metodiky-etr)
 
 # ✏️Snadné čtení
+
 
 ## Co je snadné čtení
 
@@ -79,6 +81,7 @@ Ministerstvo vnitra podle nich napsalo pravidla pro české úřady.
 K dispozici jsou následující:
 
 # ✏️Skill pro AI
+
 
 
 Zde je připravený takzvaný **skill pro umělou inteligenci** tedy připravená schopnost.
@@ -222,7 +225,10 @@ multisection
 
 ## ✏️Sémantická pravidla ETR
 
+
+
 ## Pravidla Vale
+
 
 Vale je standard pro sémantická jazyková pravidla. Nástroje podporující tento standard umí po importu pravidel vytvářet, upravovat a korigovat text a pomáhat uživateli se správným textem respektive s dodržováním pravidel.
 
@@ -237,6 +243,7 @@ Dokumentaci k syntaxi a nástrojům najdete na https://vale.sh/docs
 ❗️ NNezapomeňte, že pravidla pro angličtinu a pro češtinu jsou odlišná a specifická pro jazyk, takže importujte správný balíček.
 
 # ✏️Kontakt
+
 
 Michal Rada
 
