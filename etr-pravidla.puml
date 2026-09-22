@@ -1,0 +1,61 @@
+@startebnf etr-pravidla
+title Gramatika textu ve snadném čtení (ETR)
+
+(* Celý dokument *)
+dokument = povinný_začátek, [ zdroj ], prázdný_řádek,
+           hlavní_nadpis, úvod, oddíl, { oddíl },
+           [ kontakty ], [ slovníček ];
+
+povinný_začátek = "Toto je verze ve snadno čitelném textu.", konec_řádku;
+zdroj = "Vychází z dokumentu ", název, ".", konec_řádku;
+
+(* Nadpisy: max. 2 úrovně, max. 10 slov *)
+hlavní_nadpis = "# ", text_nadpisu, konec_řádku, prázdný_řádek;
+nadpis_oddílu = "## ", text_nadpisu, konec_řádku, prázdný_řádek;
+text_nadpisu = otázka | krátká_věta;
+
+(* Úvod říká, o co jde a proč je to pro čtenáře důležité *)
+úvod = odstavec;
+
+(* Oddíly v pořadí kroků v životě: co – kdy – kde – co potřebujete – důsledky *)
+oddíl = nadpis_oddílu, blok, { prázdný_řádek, blok };
+blok = odstavec | odrážkový_seznam | číslovaný_seznam;
+
+(* Odstavec: 1 až 5 vět, každá na novém řádku *)
+odstavec = věta, [ věta ], [ věta ], [ věta ], [ věta ];
+věta = slovo, { mezera, slovo }, ( "." | "?" ), konec_řádku;
+(* věta: max. 15 slov, 1 myšlenka, činný rod, kladně, bez závorek a středníků *)
+
+(* Výčty: max. 7 položek, bez vnoření *)
+odrážkový_seznam = odrážka, { odrážka };
+odrážka = "- ", ( věta | údaj );
+číslovaný_seznam = krok, { krok };
+krok = číslo, ". ", věta;
+
+(* Kontakty: každý na samostatném řádku *)
+kontakty = "## Kdo vám pomůže", konec_řádku, kontakt, { kontakt };
+kontakt = typ_kontaktu, ": ", údaj, konec_řádku;
+typ_kontaktu = "Telefon" | "E-mail" | "Adresa" | "Web";
+
+(* Slovníček: každé těžké slovo z textu *)
+slovníček = "## Slovníček", konec_řádku, heslo, { heslo };
+heslo = "**", slovo, "**", konec_řádku, vysvětlení;
+vysvětlení = věta, [ příklad ];
+příklad = "Například ", věta;
+
+(* Slova *)
+slovo = běžné_slovo | vysvětlené_slovo | číslo_pro_jednání
+      | číslovka_slovy | datum | částka;
+vysvětlené_slovo = těžké_slovo, konec_řádku, vysvětlení;
+(* zakázáno: zkratky, metafory, cizí slova, římské číslice, procenta, poznámky pod čarou *)
+
+(* Čísla a data *)
+číslo_pro_jednání = telefon | číslo_dveří | čas;
+číslovka_slovy = "druhé" | "třetí" | "sedmá" | "...";
+datum = [ den_v_týdnu, " " ], den, ". ", měsíc_slovy, " ", rok;
+měsíc_slovy = "ledna" | "února" | "března" | "dubna" | "května" | "června"
+            | "července" | "srpna" | "září" | "října" | "listopadu" | "prosince";
+částka = číslo, " korun";
+čas = "od ", číslo, " hodin do ", číslo, " hodin";
+
+@endebnf
