@@ -89,8 +89,8 @@ V tomto případě jde o schopnosti AI tvořit, převádět a kontrolovat texty 
 
 Skill je jeden soubor `etr.skill`. Stáhnete ho odkazem níže.
 
-- [Rovnou stáhnout etr.skill soubor](https://raw.githubusercontent.com/egdilna/snadne-cteni-etr-skill/main/etr.skill)
-- [Stránka etr.skill souboru na GitHubu](https://github.com/egdilna/snadne-cteni-etr-skill/blob/main/etr.skill)
+- [Rovnou stáhnout etr.skill soubor](https://raw.githubusercontent.com/michalradacz/snadne-cteni-etr-skill/main/etr.skill)
+- [Stránka etr.skill souboru na GitHubu](https://github.com/michalradacz/snadne-cteni-etr-skill/blob/main/etr.skill)
 
 
 ### Claude.ai (web, desktop, mobil)
@@ -145,13 +145,13 @@ Gem nespustí kontrolní skript. Kontrolu proto dělá jen model podle kontroln�
 
 V terminálu spusťte:
 
- gemini skills install https://github.com/egdilna/snadne-cteni-etr-skill.git --path skills/etr
+ gemini skills install https://github.com/michalradacz/snadne-cteni-etr-skill.git --path skills/etr
 
 ### Codex, Cursor, GitHub Copilot a další vývojářské nástroje
 
 V terminálu spusťte:
 
- npx skills add egdilna/snadne-cteni-etr-skill
+ npx skills add michalradacz/snadne-cteni-etr-skill
 
 Nástroj nabídne, do kterých AI nástrojů má skill nainstalovat. Místo příkazu můžete rozbalenou složku `etr` zkopírovat ručně do adresáře se skilly vašeho nástroje.
 
@@ -164,7 +164,7 @@ Když vaše AI skilly nepodporuje, použijte vlastní instrukce nebo projekt:
 3. Do instrukcí vložte obsah souboru `SKILL.md`, nebo ho přiložte jako soubor.
 4. Přiložte i soubory ze složky `references`.
 
-Bez spouštění kódu nepoběží kontrolní skript. Výsledek proto doporučujeme zkontrolovat nástrojem [Vale se stylem ETR-cs](https://github.com/egdilna/snadne-cteni-etr-skill).
+Bez spouštění kódu nepoběží kontrolní skript. Výsledek proto doporučujeme zkontrolovat nástrojem [Vale se stylem ETR-cs](https://github.com/michalradacz/snadne-cteni-etr-skill).
 
 
 
