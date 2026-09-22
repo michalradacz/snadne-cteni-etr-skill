@@ -1,5 +1,4 @@
-# ✏️Úvod
-
+# Úvod
 
 Na tomto webu najdete především technické nástroje pro podporu tvorby textů ve formě tzv. snadno čitelném textu (anglicky ETR).
 
@@ -11,8 +10,7 @@ Tvorba textů v tomto tvaru je částečně povinnost, ale především je to na
 - [Používáte-li pokročilé jazykové nástroje, podívejte se na šablonu se sémantickými pravidly](#pravidla-vale)
 - [Hledáte-li jen metodiky a doporučení pro ETR, podívejte se do sekce s metodikami](#metodiky-etr)
 
-# ✏️Snadné čtení
-
+# Snadné čtení
 
 ## Co je snadné čtení
 
@@ -80,8 +78,7 @@ Ministerstvo vnitra podle nich napsalo pravidla pro české úřady.
 
 K dispozici jsou následující:
 
-# ✏️Skill pro AI
-
+# Skill pro AI
 
 
 Zde je připravený takzvaný **skill pro umělou inteligenci** tedy připravená schopnost.
@@ -219,16 +216,13 @@ Pravidla, která skill dodržuje:
 **Co skill neumí:** Nevytváří obrázky a piktogramy, které metodika doporučuje. Nevkládá evropské logo Easy to Read, které patří organizaci Inclusion Europe. Metodika také doporučuje ověřit text s lidmi, pro které je určený. U důležitých textů, jako jsou rozhodnutí úřadů nebo lhůty, proto doporučujeme výsledek aspoň jednou porovnat s originálem.
 ```
 
-# ✏️Další technikálie
+# Další technikálie
 
 multisection
 
 ## ✏️Sémantická pravidla ETR
 
-
-
 ## Pravidla Vale
-
 
 Vale je standard pro sémantická jazyková pravidla. Nástroje podporující tento standard umí po importu pravidel vytvářet, upravovat a korigovat text a pomáhat uživateli se správným textem respektive s dodržováním pravidel.
 
@@ -242,8 +236,7 @@ Dokumentaci k syntaxi a nástrojům najdete na https://vale.sh/docs
 
 ❗️ NNezapomeňte, že pravidla pro angličtinu a pro češtinu jsou odlišná a specifická pro jazyk, takže importujte správný balíček.
 
-# ✏️Kontakt
-
+# Kontakt
 
 Michal Rada
 
