@@ -2,7 +2,8 @@
   "title": "Nástroje pro ETR",
   "tagline": "Nástroje nejen pro AI pro tvorbu snadně čitelného textu",
   "language": "cs",
-  "color": "orange",
+  "color": "green",
+  "baseurl": "https://michalrada.cz/snadne-cteni-etr-skill",
   "copyright": {
     "name": "Michal Rada",
     "url": "https://www.michalrada.cz",
@@ -12,10 +13,10 @@
     {
       "label": "ETR na SPMP",
       "url": "https://www.spmpcr.cz/co-delame/srozumitelne-informace/"
-},
-{
-"label": "ETR na MV",
-"url": "https://mv.gov.cz/clanek/zvysovani-srozumitelnosti-materialu-verejne-spravy-etr.aspx"
+    },
+    {
+      "label": "ETR na MV",
+      "url": "https://mv.gov.cz/clanek/zvysovani-srozumitelnosti-materialu-verejne-spravy-etr.aspx"
     }
   ],
   "footer_links": [
