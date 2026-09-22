@@ -73,10 +73,20 @@ Pravidla napsali lidé z celé Evropy.
 Pomáhali jim i lidé s mentálním postižením.
 Ministerstvo vnitra podle nich napsalo pravidla pro české úřady.
 
-
 ## Metodiky ETR
 
 K dispozici jsou následující:
+
+- [MV ČR – Zvyšování srozumitelnosti materiálů veřejné správy (ETR)](https://mv.gov.cz/clanek/zvysovani-srozumitelnosti-materialu-verejne-spravy-etr.aspx)
+- [MV ČR – Easy to read (ETR): metodika, vzorové texty a leták](https://kvalitavs.gov.cz/metodiky-dokumenty-a-publikace/easy-to-read-etr/)
+- [MV ČR – Metodika srozumitelného a zjednodušeného vyjadřování ve veřejné správě, 2019 (PDF)](https://kvalitavs.gov.cz/modules/file_storage/download.php?file=1dabcf63%7C122&inline=1)
+- [MV ČR – Leták se základními pravidly ETR (PDF)](https://kvalitavs.gov.cz/modules/file_storage/download.php?file=ae176038%7C127&inline=1)
+- [Vláda ČR – Metodika Easy to read](https://www.vlada.cz/cz/ppov/vvozp/dokumenty/metodika-easy-to-read-174932/)
+- [Inclusion Europe – Informace pro všechny: Evropská pravidla pro tvorbu snadno srozumitelných informací (PDF)](https://www.inclusion-europe.eu/wp-content/uploads/2017/06/CZ_Information_for_all.pdf)
+- [Inclusion Europe – Evropská pravidla, kontrolní seznam a logo ETR](https://www.inclusion-europe.eu/easy-to-read-standards-guidelines/)
+- [SPMP ČR – Srozumitelné informace](https://www.spmpcr.cz/co-delame/srozumitelne-informace/)
+- [SPMP ČR – Publikace ve snadném čtení ke stažení](https://www.spmpcr.cz/produkty/93)
+- [NZIP – Metodika snadného čtení: co to je?](https://www.nzip.cz/clanek/1528-metodika-snadneho-cteni-co-to-je)
 
 # Skill pro AI
 
